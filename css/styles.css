@@ -12,7 +12,9 @@ body{
 .sub-header{
   display: flex;
   justify-content: space-between;
-  margin:  0 20px;
+  margin:  0 30px;
+  padding: 20px;
+  
   height: 75px;
 }
 .logo{
@@ -53,6 +55,9 @@ li a{
   height: 400px;
   width: auto;
 }
+.intro-tag{
+  padding: 40px;
+}
 .intro-tag h1{
   font-size: 48px;
   font-weight: bolder;
@@ -71,6 +76,7 @@ button{
   font-size: 20px;
   padding: 10px 20px;
   font-weight: bold;
+  margin: 10px;
 }
 .consider{
   text-align: center;
@@ -150,6 +156,8 @@ button{
   font-size: 12px;
   display: flex;
   align-self: center;
+  margin: 10px;
+  
   
 }
 .rider{
