@@ -12,7 +12,7 @@ body{
 .sub-header{
   display: flex;
   justify-content: space-between;
-  margin: 20px;
+  margin:  0 20px;
   height: 75px;
 }
 .logo{
@@ -156,5 +156,11 @@ button{
   color: #f9faf8;
   width: 560px;
 
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
 }
 
