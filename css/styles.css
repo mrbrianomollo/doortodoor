@@ -3,6 +3,7 @@ body{
   font-family: roboto, sans-serif;
   color: black;
   margin: 0;
+  background: white;
 }
 .header, .footer{
   background-color: #1f2937;
@@ -112,7 +113,7 @@ button{
 .founder-intro{
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   background-color: #e5e7eb;
 }
 .founder{
@@ -130,3 +131,30 @@ button{
 .founder-name{
   font-weight: bold;
 }
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.contact-us-details{
+  display: flex;
+  background: #3882f6;
+  border-radius: 10px;
+  margin: 40px;
+  padding: 30px 100px;
+
+}
+.call-btn{
+  border-style: solid;
+  font-size: 12px;
+  display: flex;
+  align-self: center;
+  
+}
+.rider{
+  color: #f9faf8;
+  width: 560px;
+
+}
+
