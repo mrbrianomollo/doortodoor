@@ -65,8 +65,46 @@ li a{
 button{
   background-color: #3882f6;
   border: none;
+  border-radius: 10px;
   color: #f9faf8;
   font-size: 20px;
   padding: 10px 20px;
   font-weight: bold;
+}
+.consider{
+  text-align: center;
+}
+.consider h2{
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+.icons-holder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.icons{
+  width: 200px;
+}
+.icons-img{
+  height: 200px;
+  width: 200px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-style: solid;
+  border-radius: 20px;
+  object-fit: contain;
+  border-color: #3882f6;
+}
+.text-header,
+.text{
+  font-size: 15px;
+  font-weight: 300;
+  color: #1f2937;
+}
+.text-header{
+  font-weight: bold;
+  font-size: 20px;
 }
